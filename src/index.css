@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -6,71 +6,127 @@
 }
 
 /*header*/
-
-header{
+header {
   width: 100%;
   height: 150px;
   background-color: #dcdcdc;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-header .headerTopo{
+header .headerTopo {
   width: 100%;
   height: 80px;
 }
 
-header .headerMenu{
+header .headerMenu {
   width: 100%;
   height: 40px;
 }
 
-header .headerMenu ul{
+header .headerMenu ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+
 }
 
-header .headerMenu li{
+header .headerMenu li {
   font-size: 25px;
 }
-/*footer*/
-footer{
-width: 100%;
-height: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #dcdcdc;
+
+header .headerMenu li a{
+  color: #333;
 }
 
+header .headerMenu li a:hover{
+  color: rgb(165, 42, 42);
+}
 
-footer .menuFooter{ 
+/*footer*/
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcdcdc;
+}
+
+footer .menuFooter {
   width: 20%;
 }
 
-footer .menuFooter ul{
+footer .menuFooter ul {
   list-style: none;
 }
 
-footer .menuFooter li{
+footer .menuFooter li {
   font-size: 18px;
   height: 25px;
 }
 
-footer .credenciais{
+footer .menuFooter li a{
+  color: rgb(0, 89, 255);
+}
+
+footer .menuFooter li a:hover{
+  color: rgb(255, 0, 85);
+}
+
+footer .credenciais {
   width: 80%;
   text-align: center;
 }
 
-footer .credenciais h1{
+footer .credenciais h1 {
   color: #333;
   font-size: 23px;
 }
 
+.disciplinas{
+width: 80;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: #e2e2e2;
+border: 1 px solid #c2c2c2;
+border-radius: 5px;
+}
+.disciplinas .headerDisciplinas{
+height: 90px;
+
+}
+
+.disciplinas .headerDisciplinas h1{
+width: 100%; 
+margin-left: 40px;
+font-size: 2em;
+text-align: left;
+}
+
+.disciplinas .contentDisciplinas{
+  width: 90%;
+  display: flex;
+}
+
+.disciplinas .contentDisciplinas article{
+display: flex;
+flex-direction: column;
+width: 25%;
+align-items: center;
+}
+
+.disciplinas .contentDisciplinas article img{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.disciplinas .contentDisciplinas article h2{
 
 
-
-
-
+}
